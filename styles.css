@@ -1,0 +1,125 @@
+body, ul, h1, h2, h3, h4, p, div, input{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    position: static;
+    display: inline-block;
+    width: 100%;
+    background-color: #90b3ed;
+    text-align: center;
+    padding: 12px 0;
+}
+
+h2{
+    display: inline-block;
+    border: 2px gray dashed;
+}
+
+main{
+    padding: 50px 60px;
+    display: flex;
+    justify-content: center;
+
+}
+main div.inner-box{
+    display: inline-block;
+    border: 2px rgb(190, 190, 190) solid;
+    border-radius: 10px;
+    align-items: center;
+}
+main div section h3{
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: rgb(215, 215, 215);
+}
+main div {
+    display: inline-block;
+}
+
+
+div.grid-container{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    padding: 5px 11px;
+    grid-auto-rows: 20px;
+    margin: 0px;
+}
+
+
+form div label, section.result{
+    color: rgb(44, 44, 44);
+    font-size: 14px;
+}
+
+form input.confirm{
+    width: 92%;
+    height: 30px;
+    background-color: greenyellow;
+    font-size: 14px;
+    border-radius: 5px;
+    margin: 20px 4%;
+    box-sizing: border-box;
+}
+
+section.result{
+    display: none;
+    margin-bottom: 13px;
+}
+
+#loader-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-flow: column;
+    padding-bottom: 10px;
+}
+
+#loader {
+    display: inline;
+    position: static;
+    width: 70px;
+    height: 70px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+
+/* pseudo classes*/
+form input.confirm:hover{
+    background-color: rgb(124, 187, 30);
+}
+

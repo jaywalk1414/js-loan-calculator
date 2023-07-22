@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Loan Calculator</title>
+</head>
+<body>
+    <header>
+        <h2>
+            Loan Calculator
+        </h2>
+    </header>
+
+    <Main>
+        <div class="inner-box">
+            <Section class="Calculator">
+                <h3>Enter Your Numbers:</h3>
+
+                <form action="" onsubmit="return false" autocomplete="off">
+                    <div class="grid-container">
+                        <label for="loanAmount">Loan Amount($)</label>
+                        <input id="loanAmount" type="text" name="loanAmountInput" placeholder="ex:10,000" required >
+                    </div>
+
+                    <div class="grid-container">
+                        <label for="interest">Interest Percentage(%)</label>
+                        <input id="interest" type="number" name="intersetInput" placeholder="ex:5" required >
+                    </div>
+
+                    <div class="grid-container">
+                        <label for="duration">Duration(year)</label>
+                        <input id="duration" type="number"  name="durationInput" placeholder="ex:4" required >
+                    </div>
+
+                    <input class="confirm" type="submit" value="Confirm" >
+
+
+                </form>
+            </Section>
+
+            <div id="loader-container" style="display: none;">
+                <div id="loader" ></div>
+            </div>
+
+            <section class="result">
+                <div class="grid-container">
+                    <label >Monthly Payment($)</label>
+                    <input id="monthlyPayment"  name="MonthlyPaymentView" value="12000" disabled >
+                </div>
+                <div class="grid-container">
+                    <label >Total Rapid Amount($)</label>
+                    <input id="totoalRapid"  name="TotalRapid" value="12000" disabled >
+                </div>
+                <div class="grid-container">
+                    <label >Total Interest Percentage(%)</label>
+                    <input id="InterestPercentage"  name="InterestPercentage" value="12000" disabled >
+                </div>
+            </section>
+        </div>
+
+
+
+    </Main>
+<script src="script.js"></script>
+    
+</body>
+</html>
