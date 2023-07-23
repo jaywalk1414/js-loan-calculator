@@ -10,6 +10,11 @@ header{
     background-color: #90b3ed;
     text-align: center;
     padding: 12px 0;
+    box-shadow: 0.5px 0.5px 0.5px;
+}
+body{
+    background-image: linear-gradient( #ced5df, #4a71ae);
+    background-attachment: fixed;
 }
 
 h2{
@@ -28,6 +33,8 @@ main div.inner-box{
     border: 2px rgb(190, 190, 190) solid;
     border-radius: 10px;
     align-items: center;
+    background-color: #f3f3f3;
+    box-shadow: 1px 1px 2px ;
 }
 main div section h3{
     padding: 10px;
