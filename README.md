@@ -18,10 +18,6 @@ This project is currently: _Active_
 
 
 
-
-
-
-
 ## Features
 Complete:
 * Users can enter a loan amount, interest rate, and years to repay
