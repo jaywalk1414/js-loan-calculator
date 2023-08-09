@@ -8,12 +8,17 @@ Pure javascript project for claculating loan.
 * [Features](#features)
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
+* [Visit Site]([#visit-site)
 * [Contact](#contact)
 * [License](#license)
 
 
 ## Project Status
 This project is currently: _Active_
+
+
+
+
 
 
 
@@ -42,8 +47,14 @@ Built with:
 * JavaScript
 
 
+## Visit Site
+Share your feedback to me - [Loan-Calculator](https://jaywalk1414.github.io/js-loan-calculator/)
+
+
 ## Contact
 Twitter - [@DarkSuitOwl](https://twitter.com/DarkSuitOwl)
+
+
 
 
 ## License
