@@ -2,13 +2,16 @@
 
 Pure javascript project for claculating loan.
 
+### Visit Site
+
+Share your feedback to me - [Loan-Calculator](https://jaywalk1414.github.io/js-loan-calculator/)
+
 
 ## Table of Contents
 * [Project Status](#project-status)
 * [Features](#features)
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
-* [Visit Site]([#visit-site)
 * [Contact](#contact)
 * [License](#license)
 
@@ -42,13 +45,11 @@ Built with:
 * CSS
 * JavaScript
 
-<a name="visit-site"/>
 
-## Visit Site
-Share your feedback to me - [Loan-Calculator](https://jaywalk1414.github.io/js-loan-calculator/)
 
 
 ## Contact
+
 Twitter - [@DarkSuitOwl](https://twitter.com/DarkSuitOwl)
 
 
