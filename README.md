@@ -42,6 +42,7 @@ Built with:
 * CSS
 * JavaScript
 
+<a name="visit-site"/>
 
 ## Visit Site
 Share your feedback to me - [Loan-Calculator](https://jaywalk1414.github.io/js-loan-calculator/)
